@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+  
+}
+html{
+    border: 15px solid black
+}
+
+main{
+    margin:0 auto;
+    
+}
+.encabezado{
+    display: grid;
+    grid-template-columns: 33% 67%;
+    background-color: rgba(32, 114, 149, 0.916);
+}
+
+.nombre-p{
+    color: rgb(246, 246, 246);
+    text-align: center;
+    font-size: calc(30px + 1.5vw);
+    padding:7%;
+    padding-bottom: 3%;
+    
+}
+.nombre-s{
+    color: rgb(246, 246, 246);
+    text-align: center;
+    font-size: calc(2px + 1.5vw);
+    padding: 11%;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.encabezado img{
+    max-width: 100%;
+    object-fit: contain;
+}
+.encabezado{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.contact{
+    text-align: center;
+    font-size: xx-large;
+    font-size: calc(10px + 1.5vw);
+}
+
+.contacto{
+    background-color: rgb(210, 232, 250);
+   font-size:x-large;
+   padding-top: 4%;
+   padding: 20%;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   
+    
+}
+
+.info{
+    display: grid;
+    row-gap: 0px;
+    grid-template-columns: 33% 67%;
+    margin: 0
+}
+
+.cuadrito{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    padding: 50px;
+    text-align: justify;
+}
+
+
+.curso{
+    text-decoration-color: blue;
+}
